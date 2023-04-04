@@ -1,0 +1,53 @@
+/* Statistics */
+
+.survey-panel {
+    background: rgba(255,255,255);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    display: inline-block; 
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: .25rem;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
+    transform-style: preserve-3d;
+    transition: 150ms;
+    transform:  translateY(var(--translate-y, 0));
+    font-size: 23px;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 86%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: "Arial";
+}
+
+.survey-panel:hover {
+    --translate-y: -2px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
+}
+
+.panel-text {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-family: "Arial";
+    font-size:"20px";
+}
+
+.wrap-image-right {
+    float: right;
+    margin-left: 17px;
+    margin-right: 4%;
+    margin-bottom: 5px; 
+}
+
+.wrap-image-left {
+    float: left;
+    margin-left: 4%;
+    margin-right: 17px;
+    margin-bottom: 5px; 
+}
